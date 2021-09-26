@@ -1,6 +1,6 @@
 package behavioral.command;
 
-public class CommandInvoker {
+public class CommandInvoker implements Command{
     private Command command;
 
     public CommandInvoker(Command command) {
